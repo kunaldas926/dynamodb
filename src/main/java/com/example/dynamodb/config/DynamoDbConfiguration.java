@@ -21,15 +21,15 @@ public class DynamoDbConfiguration {
                 .standard()
                 .withEndpointConfiguration(
                         new AwsClientBuilder.EndpointConfiguration(
-                                "dynamodb.us-east-2.amazonaws.com",
-                                "us-east-2"
+                                "dynamodb.ap-south-1.amazonaws.com",
+                                "ap-south-1"
                         )
                 )
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
                                 new BasicAWSCredentials(
-                                        "AKIATTPGWWFZUM2TGJWW",
-                                        "gTcT8TSzCWRQ20tI/+u+S6yFG9wy8pWqNSTJ5NA7"
+                                        "",
+                                        ""
                                 )
                         )
                 )

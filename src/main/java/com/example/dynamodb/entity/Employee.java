@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@DynamoDBTable(tableName = "employee")
+@DynamoDBTable(tableName = "dynamodbTest")
 public class Employee {
 
     @DynamoDBHashKey
@@ -27,6 +27,4 @@ public class Employee {
     @DynamoDBAttribute
     private String email;
 
-    @DynamoDBAttribute
-    private Department department;
 }
